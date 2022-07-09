@@ -1,3 +1,14 @@
+import { BeerList } from "../components/BeerList";
+
 export const BlondBeerPage = () => {
-  return <h1>BlondBeerPage</h1>;
+  return (
+    <>
+      {" "}
+      <h1>
+        <hr />
+
+        <BeerList publisher={"Blond Beer"} />
+      </h1>
+    </>
+  );
 };
